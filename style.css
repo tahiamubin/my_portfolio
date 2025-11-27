@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFEFA;
+}
+
+.btn {
+    padding: 16px 32px;
+    border-radius: 30px;
+    background: #872BFF;
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 11px 31px 0 #8C8C8C;
+    margin-right: 20px;
+    transition: all 1s;
+}
+
+.btn:hover {
+    background: white;
+    color: black;
+    border: 2px solid #872BFF;
+}
+
+.btn-white {
+    padding: 16px 32px;
+    border-radius: 30px;
+    background: white;
+    border: 2px solid #872BFF;
+    color: black;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 11px 31px 0 #8C8C8C;
+    margin-right: 20px;
+
+}
+
+
+
+
+
+.container {
+    width: 87.5%;
+    margin: 0 auto;
+
+}
+
+.heading {
+    margin: 60px;
+}
+
+.heading h4 {
+    color: #6A14DA;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.heading h3 {
+    color: black;
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-box {
+    display: flex;
+    margin-bottom: 60px;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.card {
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+    width: 320px;
+    box-shadow: 0 4px 4px 0 #00000025;
+}
+
+*.card {
+    margin-bottom: 8px;
+
+}
+
+.card h3 {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.card p {
+    font-size: 16px;
+    color: #0D1321;
+}
+
+.card a {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.Brands:hover {
+
+    border: 2px solid #872BFF;
+    transform: all 0.1s;
+
+}
+
+.Brands {
+    padding: 40px;
+    background-color: white;
+    box-shadow: 0 4px 4px 0 #00000025;
+}
+
+.project-card {
+    padding: 48px;
+    background-color: white;
+    border: 1px solid #872BFF;
+    border-radius: 20px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.project-img img {
+    width: 400px;
+    border-radius: 20px;
+}
+
+.project-content h3 {
+    font-weight: bold;
+    color: #0E0E0E;
+}
+
+.project-content p {
+    font-size: 16px;
+    color: #0E0E0E70;
+
+}
+
+.project-content * {
+    margin-bottom: 20px;
+}
+
+
+
+/* common class end */
+
+#hero {
+    padding-top: 20px;
+    background: url("images/Hero-bg.png");
+    background-size: 600px;
+    margin-bottom: 150px;
+}
+
+
+#hero-container {
+    display: flex;
+    align-items: end;
+    width: 87.5%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-right: 20px;
+
+}
+
+#hero-container h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+#hero-container p {
+    font-size: 16px;
+    color: #8A8A8A;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+#hero-container span {
+    color: #872BFF;
+}
+
+#image {
+    width: 500px;
+    vertical-align: middle;
+}
+
+#style {
+    margin-bottom: 150px;
+}
+
+#project {
+    margin-bottom: 150px;
+}
+
+/* project */
+#project-container h4 {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    color: #872BFF;
+}
+
+#project-container h3 {
+    font-weight: bold;
+    font-size: 44px;
+    text-align: center;
+    color: black;
+    margin-bottom: 60px;
+}
+
+/* experience */
+#experience {
+    margin-bottom: 150px;
+}
+
+.company-card {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.btn-container {
+    text-align: center;
+    padding: 60px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* footer */
+
+#footer-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e8e7e3;
+    width: 100%;
+}
+
+/* reponsive */
+
+/* laptop device */
+@media screen and (max-width: 1200px) {}
+
+/* tablet device */
+@media screen and (max-width: 1024px) {
+    #hero-container h1 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    .hero-btn {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    #hero-container p {
+        font-size: 12px;
+    }
+
+    .project-img img {
+        width: 250px;
+        border-radius: 20px;
+    }
+
+}
+
+/* android device landscape */
+@media screen and (max-width: 769px) {
+    #hero-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #hero-container p {
+        text-align: center;
+    }
+
+    .hero-btn {
+
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    #image {
+        width: 300px;
+        vertical-align: middle;
+
+    }
+
+    #hero-container {
+        padding-bottom: 0px;
+    }
+
+    .card-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heading {
+        font-size: 32px;
+    }
+
+    .project-img img {
+        width: 250px;
+        border-radius: 20px;
+    }
+
+    .project-content * {
+        margin-bottom: 10px;
+    }
+
+    .project-card {
+        padding: 20px;
+    }
+
+
+}
+
+/* android device protrait */
+@media screen and (max-width: 569px) {
+    .container {
+        width: 98%;
+        margin: 0 auto;
+    }
+     #hero-container {
+        padding: 0;
+
+    }
+
+    .btn {
+        margin-right: 0;
+    }
+
+
+    .hero-btn {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .heading h3 {
+        font-size: 24px;
+    }
+
+    .card-box {
+        width: 98%;
+    }
+
+    .project-card {
+        flex-direction: column;
+    }
+
+    .project-img {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .project-card {
+        padding: 10px;
+    }
+
+    .project-content {
+        text-align: center;
+    }
+
+    .company-card {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .company-card img {
+        max-width: 150px;
+        width: 250px;
+    }
+
+    #footer-content {
+        display: flex;
+        
+    }
+
+
+    
+}
+
+
+   
